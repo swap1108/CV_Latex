@@ -1,0 +1,227 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,SANS]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Swapnil}{Sourabh}
+\address{Sophomore, Computer Engineering, IIIT Bhubaneswar}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+91 878 973 1192 \space}                   % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+               % optional, remove / comment the line if not wanted
+\homepage{swap1108.github.io}
+\social[linkedin][www.linkedin.com/in/swapnil-sourabh-658a3a147/]{Swapnil Sourabh}
+\email{b516045@iiit-bh.ac.in} 
+\extrainfo{Eniac Hall of Residence, IIIT Bhubaneswar - 751003 Odisha India}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+
+\section{Experience}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{Feb 2018--ongoing}{Owner and Founder}{\href{www.algoskills.com/home.php}{Algoskills | an interactive platform for computer algorithms}} {}{}
+{\vspace{4pt}
+\begin{itemize}
+\item {\color{blue}\href{www.algoskills.com/home.php}{Algoskills.com}} is an interactive website for knowledge sharing viz. coded by me 
+\item A platform where one can learn and help others to learn the skills of algorithms 
+\item Writing detailed articles on algorithms gave me an opportunity to dive into the depth of algorithms\medskip
+\end{itemize}
+ \textbf{Tech stack: } HTML, CSS, Bootstrap, js, PHP, MySQL, Apache web-server, SFTP etc.}}
+
+\vspace{6pt}
+\end{itemize}
+
+\section{Internship}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{May 2017--July 2017}{Summer Research Internship on IoT and Machine Learning}{Indian Institute of Technolgy, Patna} {2\textbf{\(\frac{1}{2}\)} mths}{}
+{\vspace{4pt} 
+\begin{itemize}
+\item Mentor: Dr. Jimson Mathew, HOD(CSE), IIT Patna
+\item Used Raspberry Pi with several sensors and installed them in house to obtain the datasets for activity recognition of residents
+\item Contributed in a smart app which tracked the activities of a smartphone user by applying ML algorithms on real-time data
+\end{itemize}
+\medskip 
+ \textbf{Tech stack: } Raspberry Pi, Machine Learning, MySQL, Python, Cordova, Ionic, Putty, TightVNC, Sensors( PIR, IR, Light Sensor, TI SensorTag) etc. }}
+
+\vspace{6pt}
+\end{itemize}
+
+\section{Education}
+
+\vspace{5pt}
+
+\subsection{Academic Qualifications}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{CGPA: 7.99(upto 3rd sem) }{B.Tech, Computer Engineering }{International Institute of Information Technology, Bhubaneswar }{2016--ongoing}{\textit{2nd year}}{}}
+
+\item{\cventry{Percentage: 94.2\%}{CBSE}{St. Michael's High School, Patna, Bihar}{2015}{\textit{12th Boards Examination}}{}}  % arguments 3 to 6 can be left empty
+
+\item{\cventry{Percentage: 94.4\%}{ICSE}{Don Bosco Academy, Patna, Bihar}{2013}{\textit{10th Boards Examination}}{}}  % arguments 3 to 6 can be left empty
+\end{itemize}
+
+\vspace{2pt}
+\section{Research Paper Presentation
+}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{August 11th, 2017}{Paper presentation and abstract publication}{Indian Technology Congress (ITC)  Conference, Bangalore} {}{}
+{\vspace{4pt}
+\begin{itemize}
+\item  Co-author of the research paper entitled {\color{blue} \href{https://drive.google.com/file/d/0B3iCiFcNmJYseTFNZm1OVlJuV2c/view?usp=sharing}{Activity Recognition Using Smartphone Sensors With Auto-Annotation In IoT}} along with team including faculties of IIT Patna
+\item  Went to ITC Conference, Bangalore in order to present our team's idea
+\end{itemize}
+}}
+
+\vspace{6pt}
+\end{itemize}
+
+\section{Technical and Personal skills}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item \textbf{\color{gray}Technical Skills:}\\ \cvitem{Languages}{\ \ \textsc{C}, \textsc{C++}, \textsc{python},\textsc{Java}}
+\cvitem{Sub Topics}{\ \textsc{Machine Learning}, \textsc{IoT}}
+\cvitem{Web Devlp} {\ \textsc{Php}, \textsc{Html}, \textsc{Css}, \textsc{Bootstrap}, \textsc{Apache webserver}}
+\cvitem{Tools}{\ \ \ \ \ \ \ \ \ \ \ \textsc{Git}, \LaTeX, \textsc{Jupyter},  \textsc{Pycharm}, \textsc{Putty}, \textsc{NetBeans},  \textsc{CodeBlocks}}
+\cvitem{Platforms}{\ \ \ \textsc{Linux},\textsc{Windows},\textsc{Raspbian}}
+\cvitem{Database}{\ \ \ \ \textsc{MySQL}}
+
+\vspace{6pt}
+
+
+
+\item \textbf{\color{gray}General Skills:} \textsc{Good presentation skills}, \textsc{proficient in writing and speaking English}
+
+\vspace{6pt}
+\end{itemize}
+\section{Projects}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\textbf{Personal Financial Assistant:} \textit{'A Java desktop app which acts as a personal financial assistant!'}
+
+\vspace{3pt}
+
+\small{ 
+\begin{itemize}
+\item It provides an interface for users to save their financial data securely and manage the assets.
+\item All java frames forms including login,signup,update etc. 1`2are attached together inorder to provide high security login system {\color{blue}\href{https://github.com/swap1108/Personal-Financial-Assistant}{[Github]}}
+\end{itemize}\
+\textbf{Tech Stack:} Java, NetBeans}}
+\vspace{6pt}
+
+\item{\textbf{Smart Home:} \textit{'Prediction of resident's activities for smart living!'}
+
+\vspace{3pt}
+
+\small{ 
+\begin{itemize}
+\item Concept derived from assisted living.
+\item Data are trained using Machine Learning algorithms and prediction are made depending on the real time data  (Ongoing)
+
+\end{itemize}\
+\textbf{Tech Stack:} Python, jupyter, pandas,numpy etc }}
+\vspace{6pt}
+\end{itemize}
+
+\vspace{6pt}
+
+
+\vspace{6pt}
+
+ \section{Interests}
+\renewcommand{\listitemsymbol}{-~}
+\cvlistdoubleitem{Machine Learning}{Computer Algorithms}
+\cvlistdoubleitem{Internet of Things}{Web Development}
+\cvlistdoubleitem{Data Structures}{Computer Programming}
+\section{ Honors and Activities
+}
+\vspace{6pt}
+\begin{itemize}
+\item Merit Certificate in CBSE 12th Boards for outstanding academic performance and being among top 0.1\% candidates all over India in ENGLISH CORE
+\item Secured 99/100 in Maths in 10th Board Examination(ICSE) and 98/100 in Computers(IP) in 12th Board Examination
+\item  Attended workshop on Augmented Reality by Roboflux Technologies, Data Science and Machine Learning by Stockroom.io and Illuminate pre-eureka by IIT Bombay
+\item Runner up at Inter School Quiz competition at Prarambhika, Patna and second runner up at Advantage Media Academy, Patna
+\end{itemize}
+
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
